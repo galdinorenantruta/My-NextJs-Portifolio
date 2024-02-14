@@ -3,6 +3,7 @@ import Image from "next/image";
 
 const skills = [
   { skill: "React" },
+  { skill: "React Native" },
   { skill: "Redux" },
   { skill: "Nextjs" },
   { skill: "TypeScript" },
