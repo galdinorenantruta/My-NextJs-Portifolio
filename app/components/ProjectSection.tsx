@@ -5,6 +5,14 @@ import { BsArrowUpRightSquare } from "react-icons/bs";
 
 const projects = [
   {
+    name: "Fullstack web and Mobile App Vital Signs",
+    description:
+      "An artificial intelligence platform that monitors vital signs to provide health guidance, predict and prevent diseases, as well as to activate medical rescue teams in cases of emergency.",
+    image: "/vitalsigns.png",
+
+    link: "https://www.vitalsigns.com.br",
+  },
+  {
     name: "Ecommerce Website",
     description:
       "full stack react ecommerce website using reactjs, redux toolkit and firebase, with modern UI and UX",

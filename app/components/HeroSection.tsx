@@ -10,10 +10,10 @@ const HeroSection = () => {
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
-            src="/fotocv.png"
+            src="/fotocv2.png"
             alt=""
-            width={325}
-            height={325}
+            width={400}
+            height={400}
             className="rounded-full shadow-2xl"
           />
         </div>
@@ -22,14 +22,15 @@ const HeroSection = () => {
             Hi, I am Renan Galdino!
           </h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{" "}
+           A{" "}
             <span className="font-semibold text-teal-600">
-              Front-end Developer{" "}
+              Full Stack developer{" "}
             </span>
-            based in Rio de Janeiro, Brazil. Passionate about user-centered
-            design, responsive layouts, and optimizing performance. Eager to
-            collaborate on innovative projects to deliver seamless and visually
-            stunning interfaces.
+            with a strong focus on Frontend
+            development, located in Rio de Janeiro, Brazil. I love working with
+            React, creating user-friendly designs and building responsive layouts.
+            I&#39;m excited about teaming
+            up on creative projects that can improve people&#39;s lives.
           </p>
           <Link
             to="projects"

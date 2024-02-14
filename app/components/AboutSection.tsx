@@ -2,15 +2,23 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
-  { skill: "HTML" },
-  { skill: "CSS" },
-  { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Node" },
   { skill: "React" },
   { skill: "Redux" },
-  { skill: "Next.js" },
+  { skill: "Nextjs" },
+  { skill: "TypeScript" },
+  { skill: "JavaScript" },
   { skill: "Tailwind CSS" },
+  { skill: "Mui Material" },
+  { skill: "NodeJs" }, 
+  { skill: "Expressjs" },
+  { skill: "Mongodb" },
+  { skill: "MySql" },
+  { skill: "Firebase" },
+  { skill: "HTML" },
+  { skill: "CSS" },
+  { skill: "Jira" },
+  { skill: "Scrum" },
+  { skill: "Kanban" },
   { skill: "Git" },
   { skill: "GitHub" },
 ];
@@ -33,12 +41,12 @@ const AboutSection = () => {
               Hi, my name is Renan and I am a{" "}
               <span className="font-bold">{"highly ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
-              <span className="font-bold">{" driven"}</span> Front-end developer
+              <span className="font-bold">{" driven"}</span> Full Stack developer
               based in Rio de Janeiro, Brazil.
             </p>
             <br />
             <p>
-              I have completed both a Front-End Developer Bootcamp and a React
+              I have completed both a Full Stack Developer Bootcamp and a Fron-end React
               Redux Bootcamp and have been working in the field ever since.
             </p>
             <br />
@@ -75,7 +83,7 @@ const AboutSection = () => {
               })}
             </div>
             <Image
-              src="/fotocv2.png"
+              src="/fotocv.png"
               alt=""
               width={250}
               height={250}
